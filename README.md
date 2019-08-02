@@ -12,6 +12,6 @@ The program requires 2 parameters:
 
 # Sample Configuration
 
-![sample config](img/
+![sample config](img/config.png)
 
 Save yourself some headache and dont try to compile and run via CLI. Use Intellij/Eclipse
