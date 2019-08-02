@@ -10,4 +10,8 @@ The program requires 2 parameters:
 
 `2: -f {path-to-json-file}`
 
+# Sample Configuration
+
+![sample config](img/
+
 Save yourself some headache and dont try to compile and run via CLI. Use Intellij/Eclipse
