@@ -15,3 +15,5 @@ The program requires 2 parameters:
 ![sample config](img/config.png)
 
 Save yourself some headache and dont try to compile and run via CLI. Use Intellij/Eclipse
+
+NOTE: If you run into compiliation troubles make sure you are importing all maven dependencies, change the project SDK for Intellij `File -> Project Structure -> Project/Modules/SDKs` are all set to use Java 9.
