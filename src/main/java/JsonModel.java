@@ -3,14 +3,14 @@ import java.util.List;
 public class JsonModel {
 
     private Boolean madeWithPython;
-    private List<Integer> ascending;
+    private List<Integer> backwardsInPython;
     private String description;
 
     public JsonModel() {}
 
     private JsonModel(Builder builder) {
         setMadeWithPython(builder.madeWithPython);
-        setAscending(builder.ascending);
+        setBackwardsInPython(builder.backwardsInPython);
         setDescription(builder.description);
     }
 
@@ -26,12 +26,12 @@ public class JsonModel {
         this.madeWithPython = madeWithPython;
     }
 
-    public List<Integer> getAscending() {
-        return ascending;
+    public List<Integer> getBackwardsInPython() {
+        return backwardsInPython;
     }
 
-    public void setAscending(List<Integer> ascending) {
-        this.ascending = ascending;
+    public void setBackwardsInPython(List<Integer> backwardsInPython) {
+        this.backwardsInPython = backwardsInPython;
     }
 
     public String getDescription() {
@@ -42,9 +42,10 @@ public class JsonModel {
         this.description = description;
     }
 
+
     public static final class Builder {
         private Boolean madeWithPython;
-        private List<Integer> ascending;
+        private List<Integer> backwardsInPython;
         private String description;
 
         private Builder() {
@@ -55,8 +56,8 @@ public class JsonModel {
             return this;
         }
 
-        public Builder setAscending(List<Integer> ascending) {
-            this.ascending = ascending;
+        public Builder setBackwardsInPython(List<Integer> backwardsInPython) {
+            this.backwardsInPython = backwardsInPython;
             return this;
         }
 

@@ -43,7 +43,7 @@ public class Main {
 
         if (binaryFlag.get() == 0) {
             final JsonModel jsonModel = JsonModel.newBuilder()
-                    .setAscending(Arrays.asList(0, 1, 2, 3, 4, 5,6, 7, 8, 9))
+                    .setBackwardsInPython(Arrays.asList(0, 1, 2, 3, 4, 5,6, 7, 8, 9))
                     .setDescription("Made in Java")
                     .setMadeWithPython(false)
                     .build();
